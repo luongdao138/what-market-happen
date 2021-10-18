@@ -48,11 +48,12 @@ export const IntroWrapper = styled.div`
     }
     @media (max-width: 350px) {
       .big-title {
-        ${emphasis('15px', 'var(--text-contrastText)')};
+        ${emphasis('12px', 'var(--text-contrastText)')};
         margin-bottom: 5px;
+        letter-spacing: 3px;
       }
       .small-title {
-        ${text('8px', 'var(--text-contrastText)')};
+        ${text('6px', 'var(--text-contrastText)')};
         line-height: 12px;
       }
     }
