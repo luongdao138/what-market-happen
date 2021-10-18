@@ -46,7 +46,7 @@ export const IntroWrapper = styled.div`
         line-height: 15px;
       }
     }
-    @media (max-width: 350px) {
+    @media (max-width: 450px) {
       .big-title {
         ${emphasis('12px', 'var(--text-contrastText)')};
         margin-bottom: 5px;
