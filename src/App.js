@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from './helpers/theme';
 import GlobalStyle from './GlobalStyle';
 import { Header, Banner, Introduction } from './components';
+import BestProducts from './components/BestProducts';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Banner />
       <Introduction />
+      <BestProducts />
       <GlobalStyle />
     </ThemeProvider>
   );
