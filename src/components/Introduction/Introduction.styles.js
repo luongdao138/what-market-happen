@@ -53,7 +53,7 @@ export const IntroWrapper = styled.div`
         letter-spacing: 3px;
       }
       .small-title {
-        ${text('6px', 'var(--text-contrastText)')};
+        ${text('8px', 'var(--text-contrastText)')};
         line-height: 12px;
       }
     }

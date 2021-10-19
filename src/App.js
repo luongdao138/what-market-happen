@@ -4,6 +4,7 @@ import theme from './helpers/theme';
 import GlobalStyle from './GlobalStyle';
 import { Header, Banner, Introduction } from './components';
 import BestProducts from './components/BestProducts';
+import Products from './components/Products';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Banner />
       <Introduction />
       <BestProducts />
+      <Products />
       <GlobalStyle />
     </ThemeProvider>
   );

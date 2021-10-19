@@ -36,7 +36,15 @@ const BestProducts = () => {
         <div className='main'>
           {bestProducts.map((product, index) => (
             <div key={index} className='product-item'>
+              <div className='label'>
+                <img src='/assets/best-products/producticon-bg.png' alt='' />
+                <p>{product.label}</p>
+              </div>
               <img src={product.product_image} alt='' />
+              <div className='info'>
+                <p className='name'>{product.product_name}</p>
+                <img src='/assets/best-products/go-icon.png' alt='' />
+              </div>
             </div>
           ))}
         </div>
