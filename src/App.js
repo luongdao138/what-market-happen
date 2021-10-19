@@ -5,6 +5,7 @@ import GlobalStyle from './GlobalStyle';
 import { Header, Banner, Introduction } from './components';
 import BestProducts from './components/BestProducts';
 import Products from './components/Products';
+import BrandStory from './components/BrandStory';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Introduction />
       <BestProducts />
       <Products />
+      <BrandStory />
       <GlobalStyle />
     </ThemeProvider>
   );
