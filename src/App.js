@@ -7,6 +7,7 @@ import BestProducts from './components/BestProducts';
 import Products from './components/Products';
 import BrandStory from './components/BrandStory';
 import Issue from './components/Issue';
+import Video from './components/Video';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Products />
       <BrandStory />
       <Issue />
+      <Video />
       <GlobalStyle />
     </ThemeProvider>
   );
