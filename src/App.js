@@ -6,6 +6,7 @@ import { Header, Banner, Introduction } from './components';
 import BestProducts from './components/BestProducts';
 import Products from './components/Products';
 import BrandStory from './components/BrandStory';
+import Issue from './components/Issue';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <BestProducts />
       <Products />
       <BrandStory />
+      <Issue />
       <GlobalStyle />
     </ThemeProvider>
   );

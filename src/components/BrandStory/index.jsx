@@ -4,7 +4,42 @@ import { Button } from '../../shared';
 const BrandStory = () => {
   return (
     <BrandStoryWrapper>
+      <img
+        className='brand-image object-4'
+        src='/assets/brand/object-04.png'
+        alt=''
+      />
+      <img
+        className='brand-image object-5'
+        src='/assets/brand/object-05.png'
+        alt=''
+      />
+      <img
+        className='brand-image object-2'
+        src='/assets/brand/object-02.png'
+        alt=''
+      />
+      <img
+        className='brand-image object-3'
+        src='/assets/brand/object-03.png'
+        alt=''
+      />
+      <img
+        className='brand-image object-6'
+        src='/assets/brand/object-06.png'
+        alt=''
+      />
+      <img
+        className='brand-image object-7'
+        src='/assets/brand/object-07.png'
+        alt=''
+      />
       <div className='content'>
+        <img
+          className='brand-image object-1'
+          src='/assets/brand/object-01.png'
+          alt=''
+        />
         <div className='top'>
           <p className='big-title'>Brand story</p>
           <p className='small-title'>
