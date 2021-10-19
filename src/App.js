@@ -8,6 +8,7 @@ import Products from './components/Products';
 import BrandStory from './components/BrandStory';
 import Issue from './components/Issue';
 import Video from './components/Video';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <BrandStory />
       <Issue />
       <Video />
+      <Footer />
       <GlobalStyle />
     </ThemeProvider>
   );

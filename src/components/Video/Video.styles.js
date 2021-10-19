@@ -5,6 +5,10 @@ export const VideoWrapper = styled.div`
   padding: 60px 0 120px 0;
   position: relative;
   overflow: hidden;
+  margin-bottom: 40px;
+  @media (max-width: 450px) {
+    margin-bottom: 0;
+  }
   .side-image {
     position: absolute;
   }
