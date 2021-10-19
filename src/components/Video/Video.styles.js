@@ -45,6 +45,48 @@ export const VideoWrapper = styled.div`
     }
   }
 
+  .group-3 {
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    @media (max-width: 960px) {
+      left: 100px;
+    }
+    @media (max-width: 660px) {
+      bottom: 60px;
+      left: 50px;
+    }
+  }
+
+  .video-01 {
+    z-index: 2;
+    width: 200px;
+
+    @media (max-width: 960px) {
+      width: 120px;
+    }
+    @media (max-width: 660px) {
+      width: 80px;
+    }
+  }
+
+  .video-03 {
+    width: 60px;
+    top: -50px;
+    left: -50px;
+    z-index: 1;
+    @media (max-width: 960px) {
+      width: 40px;
+      top: -30px;
+      left: -30px;
+    }
+    @media (max-width: 660px) {
+      width: 30px;
+      top: -20px;
+      left: -20px;
+    }
+  }
+
   .video-08 {
     width: 241px;
     z-index: 2;

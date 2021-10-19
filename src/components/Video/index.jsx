@@ -34,6 +34,18 @@ const Video = () => {
           alt=''
         />
       </div>
+      <div className='group-3'>
+        <img
+          className='side-image video-01'
+          src='/assets/what-happen/video-object-01.png'
+          alt=''
+        />
+        <img
+          className='side-image video-03'
+          src='/assets/what-happen/video-object-03.png'
+          alt=''
+        />
+      </div>
       <img
         className='side-image video-04'
         src='/assets/what-happen/video-object-04.png'
