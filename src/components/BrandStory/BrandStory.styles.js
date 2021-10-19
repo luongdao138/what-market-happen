@@ -91,6 +91,10 @@ export const BrandStoryWrapper = styled.div`
     margin-bottom: 35px;
     position: relative;
     z-index: 100;
+    width: 600px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     .big-title {
       ${title('30px', 'var(--primary-text)')};
       margin-bottom: 15px;
